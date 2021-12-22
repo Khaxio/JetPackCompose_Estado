@@ -46,7 +46,7 @@ fun StateSample(value : String, onValueChange : (String)->Unit ) {
     ) {
         TextField(
             value = value,
-            onValueChange = { onValueChange},
+            onValueChange =  onValueChange,
             modifier = Modifier.fillMaxWidth()
 
         )
